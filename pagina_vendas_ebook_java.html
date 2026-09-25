@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engenharia de Software e Padrões de Arquitetura em Java</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,Arial,sans-serif;background:#07111f;color:#f5f7fb;line-height:1.6}
+.hero{padding:70px 20px 80px;text-align:center;background:radial-gradient(circle at top,#17345d 0,#07111f 58%)}
+.badge{display:inline-block;padding:8px 14px;border:1px solid #2b5f99;border-radius:999px;color:#78b7ff;background:#0c1c31;font-size:14px;margin-bottom:20px}
+h1{font-size:clamp(34px,6vw,64px);max-width:950px;margin:auto;line-height:1.08}
+.hero p{max-width:760px;margin:22px auto;color:#b9c7d9;font-size:18px}
+.btn{display:inline-block;background:#2f8cff;color:white;text-decoration:none;padding:15px 28px;border-radius:10px;font-weight:800;box-shadow:0 10px 30px #2f8cff33}
+.container{max-width:1050px;margin:auto;padding:65px 20px}
+.section-title{text-align:center;font-size:32px;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#0c192a;border:1px solid #1d3048;border-radius:16px;padding:24px}
+.card h3{margin-bottom:10px;color:#78b7ff}
+.card p{color:#b9c7d9}
+.book{display:grid;grid-template-columns:320px 1fr;gap:45px;align-items:center}
+.cover{min-height:430px;border-radius:14px;padding:30px;background:linear-gradient(145deg,#102d50,#07111f);border:1px solid #315b88;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 25px 60px #0008}
+.cover small{color:#78b7ff;font-weight:700}
+.cover strong{font-size:32px;line-height:1.1}
+.cover span{color:#b9c7d9}
+ul{list-style:none;margin:20px 0}
+li{margin:12px 0;color:#dce5f1}
+li:before{content:"✓";color:#63d59a;font-weight:900;margin-right:10px}
+.cta{background:linear-gradient(135deg,#0f2845,#0b1727);border:1px solid #274c73;border-radius:20px;padding:50px 25px;text-align:center}
+.cta p{color:#b9c7d9;margin:12px auto 25px;max-width:650px}
+footer{text-align:center;padding:30px;color:#71839a;font-size:14px}
+@media(max-width:750px){.cards,.book{grid-template-columns:1fr}.cover{max-width:330px;margin:auto}.container{padding:45px 18px}}
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="badge">EBOOK • JAVA • ARQUITETURA</div>
+  <h1>Engenharia de Software e Padrões de Arquitetura em Java</h1>
+  <p>Aprenda fundamentos de Clean Code, SOLID, gestão de exceções e arquitetura sustentável com exemplos práticos em Java.</p>
+  <a class="btn" href="SEU_LINK_DE_CHECKOUT_KIWIFY" target="_blank">QUERO MEU EBOOK</a>
+</section>
+
+<section class="container">
+  <h2 class="section-title">O que você vai aprender</h2>
+  <div class="cards">
+    <div class="card"><h3>Clean Code</h3><p>Aprenda a escrever código mais legível, organizado e fácil de manter.</p></div>
+    <div class="card"><h3>SOLID</h3><p>Entenda princípios importantes para construir sistemas mais flexíveis.</p></div>
+    <div class="card"><h3>Exceções</h3><p>Veja como tratar erros de forma clara e criar exceções de domínio.</p></div>
+  </div>
+</section>
+
+<section class="container book">
+  <div class="cover">
+    <small>GUIA PRÁTICO</small>
+    <strong>Engenharia de Software e Padrões de Arquitetura em Java</strong>
+    <span>Clean Code • SOLID • Exceções • Arquitetura</span>
+  </div>
+  <div>
+    <h2 class="section-title" style="text-align:left">Um guia para evoluir seu código Java</h2>
+    <p style="color:#b9c7d9">Conteúdo organizado para ajudar você a entender boas práticas de engenharia de software e aplicar conceitos de arquitetura em projetos Java.</p>
+    <ul>
+      <li>Nomes e funções mais claros</li>
+      <li>Princípios SOLID na prática</li>
+      <li>Tratamento robusto de exceções</li>
+      <li>Exemplos de código Java</li>
+      <li>Boas práticas para manutenção</li>
+    </ul>
+    <a class="btn" href="SEU_LINK_DE_CHECKOUT_KIWIFY" target="_blank">COMPRAR AGORA</a>
+  </div>
+</section>
+
+<section class="container">
+  <div class="cta">
+    <h2>Pronto para melhorar seus projetos Java?</h2>
+    <p>Tenha acesso ao ebook e estude conceitos que ajudam a criar software mais organizado, legível e sustentável.</p>
+    <a class="btn" href="SEU_LINK_DE_CHECKOUT_KIWIFY" target="_blank">ACESSAR O EBOOK</a>
+  </div>
+</section>
+<footer>© 2026 • Engenharia de Software e Padrões de Arquitetura em Java</footer>
+</body>
+</html>
